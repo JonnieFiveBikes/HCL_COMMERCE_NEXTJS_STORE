@@ -1,4 +1,4 @@
 #!/bin/bash 
 cd /app
-yarn mock &
+nohup sh -c yarn mock &
 yarn dev
